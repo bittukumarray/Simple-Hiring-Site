@@ -9,7 +9,7 @@ Router.get("/", (req, res, next) => {
 })
 
 Router.post("/", async (req, res, next) => {
-    console.log(req.body);
+    // console.log(req.body);
     const name = req.body.name;
     const email = req.body.email;
     const resume_link = req.body.resume_link;
